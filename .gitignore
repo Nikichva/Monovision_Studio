@@ -1,18 +1,20 @@
 # Системные файлы macOS
 .DS_Store
 
-# Node.js зависимости
-node_modules/
-
 # Лог-файлы
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+*.log
 
-# .env файлы с секретами
-.env
-.env.local
-
-# IDE-шный мусор
+# Папки IDE и редакторов
 .vscode/
 .idea/
+
+# Кэш-браузеры и сборщики (если используешь например Parcel, Vite)
+dist/
+build/
+.cache/
+
+# Если используешь Node.js (на будущее)
+node_modules/
+
+# .env-файлы (если появятся)
+.env
